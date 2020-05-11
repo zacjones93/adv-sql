@@ -26,6 +26,7 @@ ORDER BY
   user_handle;
 ```
 ## 02.
+This solution assumes that you want to find all the average purchases for the user with an id of `59`
 
 ```sql
 WITH average_purchase AS (

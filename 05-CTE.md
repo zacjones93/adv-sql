@@ -3,7 +3,7 @@
 ## 01.
 The query below finds the averge of all purchases relative to the user.
 
-Break the subquery out into a CTE so that you can re-use the logic elsewhere.
+Your goal is to break the subquery out into a CTE so that you can re-use the logic elsewhere.
 
 ```sql
 select user_handle, sku, 
@@ -15,4 +15,4 @@ group by user_handle, sku;
 
 ## 02. 
 
-With that CTE defined, use the CTE to find the average quantity of the user with a `user_handle` of `59`.
+Your goal is to find the average quantity a single users are purchasing of each product. You will need to use the CTE that you defined in Part 1 to do so.
