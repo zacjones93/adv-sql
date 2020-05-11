@@ -1,7 +1,7 @@
 # Common Table Expressions
 
 ## 01.
-The query below finds the averge of all purchases relative to the user.
+The query below finds the average of all purchases relative to the user.
 
 Your goal is to break the subquery out into a CTE so that you can re-use the logic elsewhere.
 
